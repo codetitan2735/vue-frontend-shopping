@@ -1,0 +1,70 @@
+{
+  "bg_img_url": "https://freebw.com/aweae/templates/royate/images/page-info-bg-5.jpg",
+  "logo_img_url": "https://freebw.com/aweae/templates/royate/images/logo-static.png",
+  "menu_pdf_url": "https://tacisbeyti.com/online_order_menu_tacis_beyti.pdf",
+
+  "navigation": [
+      {
+        "url": "https://tacisbeyti.com/",
+        "label": "Home"
+      },
+      {
+        "url": "https://tacisbeyti.com/about-us/",
+        "label": "ABOUT US"
+      }
+    ],
+
+
+  "categories": [
+    {
+      "id": 10,
+      "title": "Salads",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROpEzPOdt401IDDoAOIFymLtJ_dZ2nA8V5azch3MBNWlk1SSx-"
+    },
+    {
+      "id": 11,
+      "title": "Soups",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROpEzPOdt401IDDoAOIFymLtJ_dZ2nA8V5azch3MBNWlk1SSx-"
+    }
+  ],
+  "menu": [
+    {
+      "id": 110,
+      "cat_id": 10,
+      "title": "Green Salad",
+      "description": "",
+      "opt_groups": [
+        {
+          "title": "Choose Size",
+          "opts": [
+            {
+              "id": 4,
+              "title": "Small",
+              "add_price": 4.25
+            },
+            {
+              "id": 5,
+              "title": "Big",
+              "add_price": 6
+            }
+          ]
+        },
+        {
+          "title": "Extra cheese",
+          "opts": [
+            {
+              "id": 10,
+              "title": "Feta cheese (small)",
+              "add_price": 3
+            },
+            {
+              "id": 70,
+              "title": "Feta cheese (Big)",
+              "add_price": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
